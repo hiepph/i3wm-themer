@@ -10,7 +10,7 @@ sudo pacman -Syy
 
 #added binutils,gcc,make,pkg-config,fakeroot for compilations, removed yaourt
 #added python-yaml, removed pip install
-sudo pacman -S git nitrogen rofi python-pip ttf-font-awesome adobe-source-code-pro-fonts binutils gcc make pkg-config fakeroot python-yaml --noconfirm
+sudo pacman -S git nitrogen rofi python-pip ttf-font-awesome adobe-source-code-pro-fonts binutils gcc make pkg-config fakeroot python-yaml wireless_tools xbc-proto --noconfirm
 
 # Look for and use common AUR helpers from https://wiki.archlinux.org/index.php/AUR_helpers#Pacman_wrappers
 if [ -x "$(command -v yay)" ]; then
@@ -84,4 +84,3 @@ python i3wm-themer.py --config config.yaml --install defaults/
 
 echo ""
 echo "Read the README.md"
-
